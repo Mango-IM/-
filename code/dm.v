@@ -11,7 +11,7 @@
 module dm(clk, DMWr, addr, din, dout, dmOp);
    input          clk;
    input          DMWr;
-   input  [8:2]   addr;  //地址限制
+   input  [8:0]   addr;  
    input  [31:0]  din;
    input  [2:0]   dmOp;  
    output reg [31:0]  dout;
