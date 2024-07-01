@@ -12,7 +12,7 @@ module sccomp_tb();
    );
    
    initial begin
-      $readmemh( "D:\\principles_of_computer\\code\\CODWork\\CODWork\\SCCPUJAL_SIM\\final.dat" , U_SCCOMP.U_IM.ROM); // load instructions into instruction memory
+      $readmemh( "D:\\principles_of_computer\\code\\CODWork\\CODWork\\SCCPUJAL_SIM\\11.dat" , U_SCCOMP.U_IM.ROM); // load instructions into instruction memory
 //    $monitor("PC = 0x%8X, instr = 0x%8X", U_SCCOMP.PC, U_SCCOMP.instr); // used for debug
       clk = 1;
       rstn = 1;
